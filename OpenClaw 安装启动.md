@@ -15,9 +15,9 @@ npm install -g openclaw
 
 > 结合Ollama(不是必须)
 
-确保你的Ollama是最新的版本，还有，可以使用QWen模型，也可以使用其它模型。
-可以使用8b体验一下。16G的建议使用2b。
-不要使用deepseek，基本会失败。
+确保你的Ollama是最新的版本。
+可以使用QWen模型，也可以使用其它模型。
+Mac OS 内存32G可以使用8b体验一下。16G的建议使用2b。
 建议使用这里的模型：[https://ollama.com/search?c=tools](https://ollama.com/search?c=tools)
 ```bash
 ollama launch openclaw
@@ -37,6 +37,10 @@ openclaw gateway restart
 
 如果不想使用本地的模型，可以试试阿里云或者[Kimi bot](https://www.kimi.com/bot)。Kimi收费是199一个月。
 可以使用的：[阿里云百炼](https://bailian.console.aliyun.com/cn-beijing/?spm=a2c4g.11186623.0.0.26244135VEiABg&tab=model#/api-key)
+
+在config中选择QWen，然后通过OAuth登陆。体验100万的tokens。
+也可以直接向配置文件里面写配置
+![qwen_token.jpg](qwen_token.jpg)
 
 > 打开openclaw的URL
 
