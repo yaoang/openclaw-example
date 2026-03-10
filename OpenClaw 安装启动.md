@@ -12,6 +12,10 @@ nvm use 24
 ```bash
 npm install -g openclaw
 ```
+或者使用脚本
+```bash
+curl -fsSL https://openclaw.ai/install.sh # Mac
+```
 
 > 结合Ollama(不是必须)
 
